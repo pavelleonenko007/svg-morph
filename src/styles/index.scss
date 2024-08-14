@@ -1,1 +1,40 @@
 @import './sass/style';
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.section {
+	width: 100%;
+	height: 100dvh;
+	background: gray;
+
+	&:nth-child(1) {
+		background: orange;
+	}
+
+	&:nth-child(2) {
+		background: peru;
+	}
+
+	&:nth-child(3) {
+		background: pink;
+	}
+
+	&:nth-child(4) {
+		background: plum;
+	}
+
+	&:nth-child(5) {
+		background: purple;
+	}
+}
+
+.svg {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	translate: -50% -50%;
+}
